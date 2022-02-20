@@ -7,6 +7,7 @@ The challenge will be to automate the search and addition of products from a vir
 Select 2 devices from each category and add them to the shopping cart.
 
 **The following URL will be used:**
+
 • URL: https://www.demoblaze.com/
 
 Carry out the scenarios and validations that you consider pertinent.
@@ -51,12 +52,6 @@ The project is developed in Java with Maven so it will install the following sof
 To try to run the demo in the local system, enter the root folder and execute the following commands to install the dependencies and start up the test runners one by one.
 
 ```
-Windows
-
 .\gradlew.bat clean test aggregate
-
-Linux
-
-./gradlew clean test aggregate
 
 clean test aggregate is the command that will run the tests and generate the report in the /target/site/serenity/ folder
